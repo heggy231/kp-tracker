@@ -9,7 +9,6 @@
     "airtable": "^0.8.1",
     "bootstrap": "^4.5.0",
     "dotenv": "^8.6.0",
-    "netlify-cli": "^5.4.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -34,5 +33,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "netlify-cli": "^5.4.1"
   }
 }

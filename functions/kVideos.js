@@ -1,8 +1,8 @@
 const formattedReturn = require('./helpers/formattedReturn');
-const getCourses = require('./helpers/getCourses');
-const createCourse = require('./helpers/createCourse');
-const deleteCourse = require('./helpers/deleteCourse');
-const updateCourse = require('./helpers/updateCourse');
+const getCourses = require('./helpers/getKVideos');
+const createCourse = require('./helpers/createKVideos');
+const deleteCourse = require('./helpers/deleteKVideos');
+const updateCourse = require('./helpers/updateKVideos');
 exports.handler = async (event) => {
     // TODO: call appropriate helper function based on HTTP method
     if (event.httpMethod === 'GET') {
